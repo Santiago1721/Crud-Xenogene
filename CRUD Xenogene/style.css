@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+    background-image: url("https://wallpaperaccess.com/full/5748694.png");
+}
+
+text{
+    background-color: aquamarine;
+}
+
+.titulo_principal{
+    justify-content: center;
+    font-size: 48px;
+
+
+}
+
+
+.crear_usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 123, 201);
+}
+
+.consultar_usuario{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+
+.actualizar_usuario{
+    display: flex;
+    justify-content: start;
+}
+
+.titulo_creacion_usuario{
+    display: flex;
+}
+
+.barra_principal{
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    margin-bottom: 5%;
+}
+
+.botones_principales{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.botones_inicio{
+    margin-top: 5%;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px, 15px;
+    border-radius: 20%;
+    width: 150px;
+    height: 100px;
+    background-color: darkcyan;
+    color: black;
+    padding: 5%;
+    cursor: pointer;
+
+
+}
+
+.botones_inicio1{
+    
+    align-items: center;
+    justify-content: center;
+    color: rgb(238, 219, 14);
+    background-color: darkcyan;
+    border: none;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    padding: 25%;
+    border-radius: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+.links{
+    text-decoration: none;
+    color: blue;
+    font-size: 80px;
+    padding-top: 12%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 12%;
+}
+
+
+
+.menu_actualizacion{
+    
+    width: 65%;
+    height: 50%;
+    margin: auto;
+    padding: 400px 5px;
+    display: block;
+    background-color: cornflowerblue;
+    grid-auto-flow: column;
+    align-items: stretch;
+    border-radius: 5%;
+
+
+}
+
+
+
+.id_cliente{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    width: 15%;
+    margin: 10%;
+    top: 30px;
+    left: 150px;
+    align-content: center;
+    align-items: center;
+    
+
+}
+
+.busqueda_id{
+    margin-top: 5%;
+    border-radius: 25%;
+    width: 200px;
+}
+
+.opciones_cambio_dato{
+    margin-top: 10%;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    width: 15%;
+    margin: 10%;
+    margin-bottom: 25%;
+    top: 30px;
+    left: 550px;
+    align-items: center;
+    align-content: center;
+
+}
+
+.boton_actualizar{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    width: 13%;
+    margin: 10%;
+    top: 80px;
+    left: 900px;
+    align-items: center;
+    align-content: center;
+    border-radius: 15%;
+
+}
+
+
+.dato_a_actualizar{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    width: 15%;
+    margin: 10%;
+    top: 50px;
+    left: 550px;
+    align-content: center;
+
+}
+
+.selector_de_dato{
+    margin-top: 5%;
+    border-radius: 25%;
+    width: 200px;
+}
+
+.nuevo_dato{
+    margin-top: 10%;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    width: 15%;
+    margin: 10%;
+    margin-bottom: 25%;
+    top: 400px;
+    left: 550px;
+    align-items: center;
+    align-content: center;
+    
+
+
+}
+
+.dato_nuevo_introducido{
+    margin-top: 5%;
+    border-radius: 25%;
+    width: 200px;
+}
+
+
