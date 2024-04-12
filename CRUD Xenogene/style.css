@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+    background-image: url("https://wallpaperaccess.com/full/5748694.png");
+}
+
+text{
+    background-color: aquamarine;
+}
+
+.titulo_principal{
+    justify-content: center;
+    font-size: 48px;
+
+
+}
+
+
+.crear_usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 208, 238);
+}
+
+.consultar_usuario{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+
+.actualizar_usuario{
+    display: flex;
+    justify-content: start;
+}
+
+.titulo_creacion_usuario{
+    display: flex;
+}
+
+.barra_principal{
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    margin-bottom: 5%;
+    height: 40px;
+}
+
+.botones_principales{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.botones_inicio{
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+    padding: 10px, 15px;
+    border-radius: 20%;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(63, 123, 241);
+    color: black;
+    padding: 5%;
+    cursor: pointer;
+
+
+}
+
+.botones_inicio:hover{
+    background-color: blue;
+    transition-delay: 0.10s;
+    transition-duration: 0.50s;
+}
+
+.botones_inicio1{
+    
+    color: rgb(228, 187, 5);
+    background-color: darkcyan;
+    border: none;
+    padding-left: 5%;
+    padding-top: 5%;
+    border-radius: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 150;
+    
+}
+
+.links{
+    text-decoration: none;
+    color: blue;
+    font-size: 80px;
+    padding-top: 12%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 12%;
+}
+
+
+
+.menu_actualizacion{
+    
+    width: 65%;
+    height: 50%;
+    margin: auto;
+    padding: 400px 5px;
+    display: block;
+    background-color: cornflowerblue;
+    grid-auto-flow: column;
+    align-items: stretch;
+    border-radius: 5%;
+
+
+}
+
+
+
+.id_cliente{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    width: 15%;
+    margin: 10%;
+    top: 30px;
+    left: 150px;
+    align-content: center;
+    align-items: center;
+    
+
+}
+
+.busqueda_id{
+    margin-top: 5%;
+    border-radius: 25%;
+    width: 200px;
+    height: 25px;
+}
+
+.opciones_cambio_dato{
+    margin-top: 10%;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    width: 15%;
+    margin: 10%;
+    margin-bottom: 25%;
+    top: 30px;
+    left: 550px;
+    align-items: center;
+    align-content: center;
+
+}
+
+.boton_actualizar{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    width: 13%;
+    margin: 10%;
+    top: 80px;
+    left: 900px;
+    align-items: center;
+    align-content: center;
+    border-radius: 15%;
+
+}
+
+
+.dato_a_actualizar{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    width: 15%;
+    margin: 10%;
+    top: 50px;
+    left: 550px;
+    align-content: center;
+
+}
+
+.selector_de_dato{
+    margin-top: 5%;
+    border-radius: 25%;
+    width: 200px;
+}
+
+.nuevo_dato{
+    margin-top: 10%;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    width: 15%;
+    margin: 10%;
+    margin-bottom: 25%;
+    top: 400px;
+    left: 550px;
+    align-items: center;
+    align-content: center;
+    
+
+
+}
+
+.dato_nuevo_introducido{
+    margin-top: 5%;
+    border-radius: 25%;
+    width: 200px;
+}
+
+.boton_return{
+    
+    display: block;
+    width: 50px;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.boton_return:hover{
+    background-color: blue;
+    border: 2px solid rgb(127, 206, 255);
+}
+
+
+.boton_return2{
+    display: block;
+    width: 50px;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px 20px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.boton_return3{
+    display: block;
+    width: 110px;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    border: none;
+
+}
+.boton_return2:hover{
+    background-color: blue;
+}
+
+.boton_return3:hover{
+    background-color: blue;
+}
+
+.boton_return4:hover{
+    background-color: blue;
+}
+
+.boton_return4{
+    display: block;
+    width: 50px;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.campo_consulta_usuario{
+
+    width: 50%;
+    height: 75%;
+    margin: auto;
+    padding: 100px 15px;
+    display: flex;
+    background-color: cornflowerblue;
+    align-items: center;
+    border-radius: 5%;
+    align-content: center;
+
+
+
+}
+
+.titulo_campo_consulta_usuario{
+    margin-right: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.menu_delete{
+    
+    width: 50%;
+    height: 75%;
+    margin: auto;
+    padding: 100px 15px;
+    display: flex;
+    background-color: cornflowerblue;
+    align-items: center;
+    border-radius: 5%;
+    align-content: center;
+
+}
+
+
+
