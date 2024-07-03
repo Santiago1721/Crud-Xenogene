@@ -1,7 +1,7 @@
 <?php
 
-$username = "usr_xclinic";
-$password = "xclin##2024";
+$username = "you have to put here a valid username in the pgadmin db that you want to access";
+$password = "you have to put here the password of the pgadmin db available user";
 
 try
 {
